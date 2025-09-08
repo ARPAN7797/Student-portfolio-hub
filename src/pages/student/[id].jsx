@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import students from "../../../data/dummyData";
+import students from "../../data/dummyData";
 
 export default function StudentProfile() {
   const router = useRouter();
